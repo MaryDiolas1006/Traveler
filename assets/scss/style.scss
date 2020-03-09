@@ -23,9 +23,7 @@ body {
 
   }
 
-  .carousel-list {
-    height: auto;
-  }
+  
 
   .carousel-item-caption {
     transform: translate (-50%, 50%);
@@ -167,6 +165,40 @@ body {
 .carousel-image-36 {
   background: url('../images/image36.jpg');
   background-size: cover;
+}
+
+.modal .carousel-item {
+  height:auto;
+
+}
+
+.modal .carousel-item img {
+  height: 450px;
+  width: 500px
+}
+
+.modal img {
+  height:400px;
+  width:500px;
+}
+
+#videoModal .container  {
+  position:relative;
+ padding-bottom: 75%;
+ height:0;
+ overflow:hidden;
+
+}
+
+
+
+.modal iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width: 100%;
+  
 }
   
 footer {
