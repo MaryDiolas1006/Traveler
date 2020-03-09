@@ -2,7 +2,7 @@
 
 body {
   overflow-x: hidden;
-  
+
  }
 
 .navbar .nav-link{
@@ -99,11 +99,12 @@ body {
   // position: absolute;
   // position:static;
   min-height: 200px;
-  background: url('../images/image8.jpg');
+  background:url('../images/image8.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0px;
   text-align: center;
+  background-size:cover;
   // color: #fff;
 
 }
