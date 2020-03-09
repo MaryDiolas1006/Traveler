@@ -5,6 +5,7 @@ body {
 
  }
 
+ 
 .navbar .nav-link{
   font-size: 14px;
   text-transform: uppercase;
@@ -19,6 +20,11 @@ body {
 
 .carousel-item {
   height:550px;
+
+  }
+
+  .carousel-list {
+    height: auto;
   }
 
   .carousel-item-caption {
@@ -81,20 +87,23 @@ body {
 .card-deck .zoom {
   transition: transform 1s;
   margin: 0 auto;
-  cursor: point;
+ 
 }
 
 .zoom:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1)
-  }
+  -ms-transform: scale(1.1);
+   cursor:pointer;
+   }
+
 
   .card-deck {
     margin: 0 auto;
   
   }
 
+  
 #video-play {
   // position: absolute;
   // position:static;
@@ -142,6 +151,23 @@ body {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1)
     }
+
+
+
+.carousel-image-34 {
+  background: url('../images/image34.jpg');
+  background-size: cover;
+}
+
+.carousel-image-35 {
+  background: url('../images/image35.jpg');
+  background-size: cover;
+}
+
+.carousel-image-36 {
+  background: url('../images/image36.jpg');
+  background-size: cover;
+}
   
 footer {
 //  background-color: #000;
